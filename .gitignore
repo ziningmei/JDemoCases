@@ -1,59 +1,38 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+.idea/
+.gradle/
+*.iml
+*.ipr
+*.iws
+work/
+/data/
+logs/
 .DS_Store
-.AppleDouble
-.LSOverride
+build/
+/target/
+__ConfigTemp/
+target/
+*-execution-hints.log
+docs/html/
+docs/build.log
+/tmp/
+backwards/
+html_docs
+.vagrant/
+.class
+*/target/
 
-# Thumbnails
-._*
+## eclipse ignores (use 'mvn eclipse:eclipse' to build eclipse projects)
+## All files (.project, .classpath, .settings/*) should be generated through Maven which
+## will correctly set the classpath based on the declared dependencies and write settings
+## files to ensure common coding style across Eclipse and IDEA.
+.project
+.classpath
+eclipse-build
+.settings
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+## netbeans ignores
+nb-configuration.xml
+nbactions.xml
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
+dependency-reduced-pom.xml
+/*.iml
