@@ -1,5 +1,11 @@
 <html>
+<head>
+    <!-- 以下方式定时转到其他页面 -->
+    <meta http-equiv="refresh" content="0;url=i18ndemo/index.html">
+</head>
+
 <body>
-<h2>Hello World!</h2>
+forwarding ....
 </body>
 </html>
+
